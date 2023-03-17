@@ -3,8 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.9
-  - dash
-  - dash_bootstrap_components
-  - pandas
-  - numpy
-  - plotly.express
+  - pip
+  - pip:
+    - dash
+    - dash-bootstrap-components
+    - pandas
+    - numpy
+    - plotly
