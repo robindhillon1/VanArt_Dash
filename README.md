@@ -68,6 +68,8 @@ conda activate VanArt_dash
 python app.py
 ```
 
+Ctrl-Click the `http` link displayed in the terminal, or copy paste it into the browser to use the app locally. 
+
 ## Contributing
 
 Interested in contributing? You are welcome to make contributions on our VanArt App! We would love updated information regarding current art pieces, and information regarding art that we don't have in our database. Some updates include:
