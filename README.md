@@ -41,7 +41,7 @@ The gif below shows how to use the dashboard:
 
 ![VanArt_Dash Gif](Animation.gif)
 
-## Data Used
+## Reference (Data Used)
 
 The data set we used to create this app is modified from [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/public-art/export/).
 
