@@ -31,7 +31,7 @@ Public art is an important aspect of any city as it reflects the culture, histor
 `VanArt_Dash` is a much simpler version of `VanArt`, and this is described below:
 -   `The dropdown panel`: The user can select the neighbourhood on the top which filters down the art  
     the art visible on the map. If someone chooses `Downtown`, for example, only art found in `Downtown`
-    will be shown. 
+    will be shown. To deselect inputs, simply press backspace. 
 -   `The plots panel`: It displays the locations of the public art. When first opening the application 
     (without any user input) the map will display all the art pieces in Vancouver and the corresponding statistics,
     such as the number of art types in Vancouver. The user can also interact with the map directly.
