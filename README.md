@@ -26,8 +26,6 @@ Public art is an important aspect of any city as it reflects the culture, histor
 
 ## Dashboard Overview
 
-![VanArt Gif](vanart.gif)
-
 `VanArt_Dash` is a much simpler version of `VanArt`, and this is described below:
 -   `The dropdown panel`: The user can select the neighbourhood on the top which filters down the art  
     the art visible on the map. If someone chooses `Downtown`, for example, only art found in `Downtown`
@@ -38,6 +36,10 @@ Public art is an important aspect of any city as it reflects the culture, histor
     Hovering over a datapoint will display a popup which gives vital information such as the name of the artwork, 
     the neighbourhood it's located in, its address, and the type of art.  
 -   `The card panel`: The total number of artworks are shown depending on the user input. 
+
+The gif below shows how to use the dashboard:
+
+![VanArt_Dash Gif](Animation.gif)
 
 ## Data Used
 
