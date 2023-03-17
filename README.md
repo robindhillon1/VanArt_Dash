@@ -50,9 +50,17 @@ Our modified data contains the feature about: the title of the artwork, the type
 
 To make this app run locally on your computer, please:
 
-1. Clone or fork this repository first
-2. Install the environment. 
-3. Then, navigate to the top directory and run the command in the terminal below:
+1. Clone or fork this repository first, and then navigate to the root directory of the repository.
+2. Install the environment by following the installation instructions below.
+
+```{bash}
+conda env create --file environment.yaml
+```
+Activate the conda environment:
+```{bash}
+conda activate VanArt_dash
+```
+3. While at the root directory, run the command in the terminal below:
 
 ```{bash}
 python app.py
