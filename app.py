@@ -15,31 +15,33 @@ data = data[~data.Neighbourhood.isna()]
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
 # create layout
-app.layout = html.Div([
-    html.H1("VanArt: Discover Public Art in Vancouver!",
-            style={'textAlign': 'center'}),
-    dcc.Dropdown(
-        id="neighbourhood-widget",
-        options=[{'label': i, 'value': i} for i in data.Neighbourhood.unique()],
-        #multi=True,
-        value=None,
-        style={'margin': '0px 750px 0px 250px'}
-    ),
-    dcc.Graph(id="map",
-              style={'display': 'flex',
-                     'align-items': 'center',
-                     'justify-content': 'center',
-                     'margin': '25px 500px 0px 500px'}
-              ),
-    dbc.Card(
-        dbc.CardBody(id="art-num-card", className="card-num"),
-        style={'margin': '25px 500px 0px 500px'}
-    )
+app.layout = dbc.Container([
+    dbc.Row([
+        dbc.Col(html.H1("VanArt: Discover Public Art in Vancouver!",
+                        style={'textAlign': 'center'}),
+                width=12),
+    ]),
+    dbc.Row([
+        dbc.Col(dcc.Dropdown(
+                    id="neighbourhood-widget",
+                    options=[{'label': i, 'value': i} for i in data.Neighbourhood.unique()],
+                    #multi=True,
+                    value=None,
+                ), width=12),
+    ]),
+    dbc.Row([
+        dbc.Col(dcc.Graph(id="map"), width = 6),
+        dbc.Col(dcc.Graph(id="hist"), width = 6)
+    ]),
+    dbc.Row([
+        dbc.Col(dbc.Card(dbc.CardBody(id="art-num-card", className="card-num")), width=12),
+    ]),
 ])
 
 # Set up callbacks/backend
 @app.callback(
     Output("map", "figure"),
+    Output("hist", "figure"),
     Output("art-num-card", "children"), 
     Input("neighbourhood-widget", "value")
 )
@@ -48,6 +50,7 @@ def plot_plotly(neighbourhood_input):
     if neighbourhood_input is None:
         # show all data
         filtered_data = data
+        neighbourhood_input = "Vancouver"
     else:
         # show selected neighbourhood data
         filtered_data = data[data.Neighbourhood == neighbourhood_input]
@@ -69,7 +72,8 @@ def plot_plotly(neighbourhood_input):
                     "YearOfInstallation":True,
                     "Type":True,
                     "latitude":False,
-                    "longitude":False},
+                    "longitude":False,
+                    "SiteAddress":True},
         zoom=10.5
     )
 
@@ -78,7 +82,15 @@ def plot_plotly(neighbourhood_input):
         mapbox_style="open-street-map",
         margin={"r":0,"t":0,"l":0,"b":0},
     )
-    return fig, card_text
+    
+    hist = (px.histogram(filtered_data, y="Type", color="Type",
+                         labels={'count':'Count'},
+                         title=f"Art Types in {neighbourhood_input}",
+                         hover_data={"Type":False})
+            .update_yaxes(categoryorder="total descending")
+            .update_layout(showlegend=False,
+                           xaxis_title="Count"))
+    return fig, hist, card_text
 
 if __name__ == '__main__':
     app.run_server(debug=True)
