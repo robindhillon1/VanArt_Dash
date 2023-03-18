@@ -1,10 +1,5 @@
 # Contributing
-## Core Team Members
-
-    - Robin Dhillon
-    - Shirley Zhang
-    - Lisa Sequeira
-    - Hongjian Li
+## Author: Robin Dhillon
 
 ### Core Team Contribution
 
@@ -15,7 +10,7 @@ helps, and credit will always be given.
 
 ### About
 
-This document outlines how to propose a change to our `VanArt` project, and the repo can be found [here](https://github.com/UBC-MDS/VanArt). We look forward to all proposals and contributions to this project! If reporting a bug or requesting features, please open an issue. If you'd like to actively contribute to features and/or bugs, please fork our repo and submit a pull request (PR), which will be reviewed as soon as possible. Please note that all contributors must abide by our code of conduct which can be found below.
+This document outlines how to propose a change to the `VanArt_Dash` project, and the repo can be found [here]([https://github.com/UBC-MDS/VanArt](https://github.com/robindhillon1/VanArt_Dash)). I look forward to all proposals and contributions to this project! If reporting a bug or requesting features, please open an issue. If you'd like to actively contribute to features and/or bugs, please fork this repo and submit a pull request (PR), which will be reviewed as soon as possible. Please note that all contributors must abide by the code of conduct which can be found below.
 
 ## Types of Contributions
 
@@ -68,5 +63,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `VanArt` project is released with a
+Please note that the `VanArt_Dash` project is released with a
 [Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project you agree to abide by its terms.
