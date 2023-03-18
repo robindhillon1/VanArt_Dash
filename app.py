@@ -27,6 +27,7 @@ app.layout = dbc.Container([
                     options=[{'label': i, 'value': i} for i in data.Neighbourhood.unique()],
                     #multi=True,
                     value=None,
+                    placeholder="Select neighbourhood"
                 ), width=12),
     ]),
     dbc.Row([
