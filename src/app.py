@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-data = pd.read_csv("data/public-art.csv", delimiter=";")
+data = pd.read_csv("../data/public-art.csv", delimiter=";")
 
 # separate longitude and latitude and convert to numeric for plot
 data[["latitude", "longitude"]] = data.geo_point_2d.str.split(", ", expand=True).astype(float)
