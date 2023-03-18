@@ -64,13 +64,19 @@ Activate the conda environment:
 ```{bash}
 conda activate VanArt_dash
 ```
-3. While at the root directory, run the command in the terminal below:
+3. Navigate to the `src` folder and run the command in the terminal below:
 
 ```{bash}
 python app.py
 ```
 
-Ctrl-Click the `http` link displayed in the terminal, or copy paste it into the browser to use the app locally. 
+4. Ctrl-Click the `http` link displayed in the terminal, or copy paste it into the browser to use the app locally.
+```{bash}
+Dash is running on http://127.0.0.1:8050/
+
+* Serving Flask app 'app'
+* Debug mode: on
+```
 
 ## Contributing
 
