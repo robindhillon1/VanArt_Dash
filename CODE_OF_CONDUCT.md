@@ -1,15 +1,10 @@
 # Code of Conduct
 
-## Core Team Members
+## Author: Robin Dhillon
 
-    - Robin Dhillon
-    - Shirley Zhang
-    - Lisa Sequeira
-    - Hongjian Li
+## Pledge
 
-## Our Pledge
-
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone. Establishing a pleasant and inclusive environment for all contributors is of utmost importance. Our philosophy of realizing success is to create an atmosphere where everyone feels welcome and motivated to contribute their unique perspectives and ideas. We emphasize that everyone, regardless of age, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation, warrants the same respect and treatment in all phases of contribution and developments of the project. This is integral to ensuring that the project will grow successfully and upholding our responsibility to the overall software ecosystem. 
+In the interest of fostering an open and welcoming environment, the contributors and maintainers (current and future) pledge to make participation in our project and our community a harassment-free experience for everyone. Establishing a pleasant and inclusive environment for all contributors is of utmost importance. Our philosophy of realizing success is to create an atmosphere where everyone feels welcome and motivated to contribute their unique perspectives and ideas. We emphasize that everyone, regardless of age, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation, warrants the same respect and treatment in all phases of contribution and developments of the project. This is integral to ensuring that the project will grow successfully and upholding our responsibility to the overall software ecosystem. 
 We pledge to abide by UBC's Student Code of Conduct.
 
 ## Our Standards
