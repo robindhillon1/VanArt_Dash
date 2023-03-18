@@ -3,7 +3,7 @@
 
 ### Core Team Contribution
 
-Our core team employs proper branching when contributing to the project, and makes use of branch protection rules when submitting a pull request. Every team member is able to review and accept (or close) these pull requests. Furthermore, we are able to create issues and discussions as it promotes proper team collaboration.
+The core team employs proper branching when contributing to the project, and makes use of branch protection rules when submitting a pull request. Every team member is able to review and accept (or close) these pull requests. Furthermore, we are able to create issues and discussions as it promotes proper team collaboration.
 
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given.
