@@ -64,7 +64,7 @@ Activate the conda environment:
 ```{bash}
 conda activate VanArt_dash
 ```
-3. Navigate to the `src` folder and run the command in the terminal below:
+3. Navigate to the `src` folder and run the following command in the terminal:
 
 ```{bash}
 python app.py
@@ -89,4 +89,4 @@ Also, please check out the [contributing](CONTRIBUTING.md) guidelines. Please no
 
 ## License
 
-`VanArt` is licensed under the terms of the [MIT](LICENSE) license.
+`VanArt_Dash` is licensed under the terms of the [MIT](LICENSE) license.
