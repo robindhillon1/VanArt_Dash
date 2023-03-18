@@ -23,6 +23,8 @@ Public art is an important aspect of any city as it reflects the culture, histor
 
 `VanArt_Dash` provides an interactive dashboard that allows tourists to easily find the public art they are interested in. By providing information on the location (the neighbourhood of interest), the dashboard will not only help tourists find the public art they are looking for but also provide context and background on each installation. Additionally, `VanArt_Dash` can serve as a tool to promote public art and encourage people to explore Vancouver. Overall, `VanArt_Dash` has the potential to enhance the experience of tourists visiting Vancouver by providing them with a unique and enriching way to explore the city's public art. Although geared towards tourists, `VanArt_Dash`, like `VanArt`, can be used by anyone interested in the Vancouver public art scene; locals who would like to explore their city’s public art are welcome to and encouraged to use `VanArt_Dash`.
 
+**Proposal**: The original proposal for `VanArt` can be found [here](https://github.com/UBC-MDS/VanArt/blob/main/reports/proposal.md), while the updated proposal for this dash app can be found [here](docs/proposal.md).
+
 
 ## Usage and Dashboard description
 
