@@ -24,11 +24,11 @@ Public art is an important aspect of any city as it reflects the culture, histor
 `VanArt_Dash` provides an interactive dashboard that allows tourists to easily find the public art they are interested in. By providing information on the location (the neighbourhood of interest), the dashboard will not only help tourists find the public art they are looking for but also provide context and background on each installation. Additionally, `VanArt_Dash` can serve as a tool to promote public art and encourage people to explore Vancouver. Overall, `VanArt_Dash` has the potential to enhance the experience of tourists visiting Vancouver by providing them with a unique and enriching way to explore the city's public art. Although geared towards tourists, `VanArt_Dash`, like `VanArt`, can be used by anyone interested in the Vancouver public art scene; locals who would like to explore their city’s public art are welcome to and encouraged to use `VanArt_Dash`.
 
 
-## Dashboard overview and description
+## Usage and Dashboard description
 
 `VanArt_Dash` is a much simpler version of `VanArt`, and this is described below:
 -   `The dropdown panel`: The user can select the neighbourhood on the top which filters down the art  
-    the art visible on the map. If someone chooses `Downtown`, for example, only art found in `Downtown`
+    visible on the map. If someone chooses `Downtown`, for example, only art found in `Downtown`
     will be shown. To deselect inputs, simply press backspace. 
 -   `The plots panel`: It displays the locations of the public art. When first opening the application 
     (without any user input) the map will display all the art pieces in Vancouver and the corresponding statistics,
@@ -37,7 +37,7 @@ Public art is an important aspect of any city as it reflects the culture, histor
     the neighbourhood it's located in, its address, and the type of art.  
 -   `The card panel`: The total number of artworks are shown depending on the user input. 
 
-The gif below shows how to use the dashboard:
+The gif below shows how to use the dashboard. Detailed instructions on how to use the dashboard locally are given [here](Installation and run locally).
 
 ![VanArt_Dash Gif](Animation.gif)
 
@@ -48,7 +48,7 @@ The data set we used to create this app is modified from [City of Vancouver Open
 Our modified data contains the feature about: the title of the artwork, the type of art (mural, statue, etc.), address of artwork, neighborhood where the work is located, latitude and longitude of the artwork, the photo URL, URL with artwork information, brief introduction to the artwork, and the year artwork was installed. Note, however, that not all of these columns are used for this Dash app. 
 
 
-## Run Locally
+## Installation and run locally
 
 To make this app run locally on your computer, please:
 
