@@ -7,9 +7,9 @@ Try out the app here: **RENDER LINK HERE**
 ---
 
 - [Introduction](#introduction)
-- [Dashboard Overview](#dashboard-overview)
-- [Data Used](#data-used)
-- [Run Locally](#run-locally)
+- [Usagea and Dashboard Overview](#usage-and-dashboard-description)
+- [Reference](#reference-and-data-used)
+- [Installation](#installation-and-run-locally)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -41,7 +41,7 @@ The gif below shows how to use the dashboard. Detailed instructions on how to us
 
 ![VanArt_Dash Gif](Animation.gif)
 
-## Reference (Data Used)
+## Reference and data used
 
 The data set we used to create this app is modified from [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/public-art/export/).
 
