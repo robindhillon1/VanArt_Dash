@@ -32,12 +32,8 @@ Public art is an important aspect of any city as it reflects the culture, histor
 -   `The dropdown panel`: The user can select the neighbourhood on the top which filters down the art  
     visible on the map. If someone chooses `Downtown`, for example, only art found in `Downtown`
     will be shown. To deselect inputs, simply press backspace. 
--   `The plots panel`: It displays the locations of the public art. When first opening the application 
-    (without any user input) the map will display all the art pieces in Vancouver and the corresponding statistics,
-    such as the number of art types in Vancouver. The user can also interact with the map directly.
-    Hovering over a datapoint will display a popup which gives vital information such as the name of the artwork, 
-    the neighbourhood it's located in, its address, and the type of art.  
--   `The card panel`: The total number of artworks are shown depending on the user input. 
+-   `The plots panel`: There are two plots which display information of the selected public artworks. Specifically, we have a leaflet plot of Vancouver which shows the location of the artworks and their corresponding important information, and we also have a bar plot which shows how many different types of art exists for the selected user input (neighbourhood). When first opening the application (without any user input) the map will display all the art pieces in Vancouver and the corresponding statistics, such as the number of art types in Vancouver. The user can also interact with the map directly. Hovering over a datapoint will display a popup which gives vital information such as the name of the artwork, the neighbourhood it's located in, its address, and the type of art.  
+-   `The card panel`: The total number of artworks are shown depending on the user input.
 
 The gif below shows how to use the dashboard. Detailed instructions on how to use the dashboard locally are given [here](#installation-and-run-locally).
 
