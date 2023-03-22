@@ -60,7 +60,13 @@ Activate the conda environment:
 ```{bash}
 conda activate VanArt_dash
 ```
-3. Navigate to the `src` folder and run the following command in the terminal:
+
+Alternative: If you already have an environment and do not want to create a new one, you could use the `requirements.txt` file in the `src` folder as well. Navigate to the `src` folder and simply type in the following command to install the necessary libraries:
+```{bash}
+pip install -r requirements.txt.
+```
+
+3. Once you have activated your environment, navigate to the `src` folder and run the following command in the terminal:
 
 ```{bash}
 python app.py
