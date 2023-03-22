@@ -2,7 +2,7 @@
 
 Welcome to `VanArt_Dash`! This app is a cousin of the original [VanArt](https://github.com/UBC-MDS/VanArt) project created for DSCI 532 (Data Visualization II); a course in the Master of Data Science program at the University of British Columbia. The mission of this app is to help you explore public art in the city of Vancouver.
 
-**Try out the app [here](https://five32-ia-vanart-dash.onrender.com)!**
+**Try out the app [here](https://five32-ia-vanart-dash.onrender.com)!** Please be patient while the link loads; `render` is quite slow on the free tier subscription so it could take some time to load. 
 
 ---
 
