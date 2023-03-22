@@ -39,7 +39,7 @@ Public art is an important aspect of any city as it reflects the culture, histor
     the neighbourhood it's located in, its address, and the type of art.  
 -   `The card panel`: The total number of artworks are shown depending on the user input. 
 
-The gif below shows how to use the dashboard. Detailed instructions on how to use the dashboard locally are given [here](installation-and-run-locally).
+The gif below shows how to use the dashboard. Detailed instructions on how to use the dashboard locally are given [here](#installation-and-run-locally).
 
 ![VanArt_Dash Gif](Animation.gif)
 
